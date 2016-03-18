@@ -1,9 +1,21 @@
-<resources>>
+<resources>
 
-    <style name="AppTheme.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
+    <!--<style name="AppTheme">-->
+        <!--<item name="colorPrimary">@color/red</item>-->
+        <!--<item name="colorPrimaryDark">@color/dark_red</item>-->
+        <!--<item name="colorAccent">@color/gray</item>-->
+        <!--<item name="android:colorBackground">@color/soothing_blue</item>-->
+        <!--<item name="android:windowBackground">@color/soothing_blue</item>-->
+        <!--<item name="buttonStyle">@style/BeatBoxButton</item>-->
+
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+        <!--<item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+    <!--</style>-->
+
+    <style name="BeatBoxButton" parent="android:Widget.Material.Button">
+        <item name="android:background">@drawable/button_beat_box</item>
     </style>
+
 </resources>
